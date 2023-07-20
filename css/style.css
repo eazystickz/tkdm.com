@@ -1,6 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,700|Paytone+One|Teko:300,400,500,600,700&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,700|Paytone+One|Teko:300,400,500,600,700&display=swap");
-/* line 1, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_extend.scss */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,700|Paytone+One");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,700|Paytone+One");
+/* @import url("https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,700|Paytone+One|Teko:300,400,500,600,700&display=swap");
+ *//* line 1, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_extend.scss */
 .flex-center-start {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1459,7 +1460,7 @@ h3 {
 
 /* line 4, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_slider.scss */
 .slider_bg_2 {
-  background-image: url(../img/banner/banner2.png);
+  background-image: url(../img/banner/tie.jpg);
 }
 
 /* line 7, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_slider.scss */
@@ -1499,7 +1500,7 @@ h3 {
 
 /* line 25, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text span {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 600;
   color: #FFFFFF;
   text-transform: capitalize;
@@ -1509,19 +1510,19 @@ h3 {
 /* line 32, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text h3 {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 40px;
+  font-size: 80px;
   text-transform: capitalize;
   font-weight: 600;
   color: #fff;
   line-height: 1;
   margin-top: 25px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 /* line 41, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_slider.scss */
-.slider_area .single_slider .slider_text h3 span {
+/* .slider_area .single_slider .slider_text h3 span {
   font-weight: 700;
-}
+} */
 
 @media (max-width: 767px) {
   /* line 32, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_slider.scss */
@@ -1547,12 +1548,10 @@ h3 {
 
 /* line 56, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text p {
-  font-size: 25px;
+  font-size: 40px;
   font-weight: 600;
   color: #FFF;
-  margin-bottom: 80px;
-  margin-top: 10px;
-  font-family: "Montserrat", sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -1568,6 +1567,17 @@ h3 {
     font-size: 16px;
   }
 }
+
+
+
+.slider_area .single_slider .call_to_action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 65px;
+}
+
+
 
 /* line 70, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text .video_service_btn > a {
@@ -1841,10 +1851,17 @@ h3 {
   border: none;
 }
 
+
+
+
+
+
+
+
 .about-text-area .section_title h3{
   color: #000000!important;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 900;
   padding: 90px  0 40px 0;
   font-size: 40px!important;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -1860,6 +1877,8 @@ h3 {
   margin-bottom: 20px;
   color: #000000;
 }
+
+
 
 
 /* line 1, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_about.scss */
@@ -1933,43 +1952,42 @@ h3 {
   color: #596672;
   margin-bottom: 50px;
 }
+ 
 
 /* line 47, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_about.scss */
-.about_area .about_info_wrap .food_list {
+/* .about_area .about_info_wrap .food_list {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-}
+} */
 
-@media (max-width: 767px) {
-  /* line 47, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_about.scss */
+/* @media (max-width: 767px) {
   .about_area .about_info_wrap .food_list {
     display: block;
   }
-}
+} */
 
 /* line 52, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_about.scss */
-.about_area .about_info_wrap .food_list li {
+/* .about_area .about_info_wrap .food_list li {
   margin-right: 50px;
-}
+} */
 
-@media (max-width: 767px) {
-  /* line 52, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_about.scss */
+/* @media (max-width: 767px) {
   .about_area .about_info_wrap .food_list li {
     margin-right: 0;
     margin-bottom: 30px;
   }
-}
+} */
 
 /* line 58, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_about.scss */
-.about_area .about_info_wrap .food_list li span {
+/* .about_area .about_info_wrap .food_list li span {
   padding-left: 14px;
   color: #DB9A64;
   font-size: 16px;
   font-weight: 400;
-}
+} */
 
 /* line 67, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_about.scss */
 .about_area .about_img {
@@ -2384,7 +2402,7 @@ h3 {
 .values_area .section_title h3{
   color: #ffffff!important;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 900;
   padding: 0px  0 90px 0;
   font-size: 40px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -2414,6 +2432,7 @@ h3 {
 /* line 13, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_values.scss */
 .values_area .single_value .icon img {
   margin-bottom: 10px;
+  height: 70px;
 }
 
 @media (max-width: 767px) {
@@ -2492,7 +2511,7 @@ h3 {
 .services_area .section_title h3{
   color: #000000!important;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 900;
   padding: 0px  0 70px 0;
   font-size: 40px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -2614,7 +2633,7 @@ h3 {
 .promise_area .section_title h3{
   color: #e6b800!important;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 900;
   padding: 0px  0 50px 0;
   font-size: 40px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -3336,7 +3355,7 @@ h3 {
   color: #e6b800;
   text-transform: capitalize;
   margin-bottom: 45px;
-  font-family: "Teko", sans-serif;
+  font-family: "Paytone One", sans-serif;;
 }
 
 @media (max-width: 767px) {
