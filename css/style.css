@@ -1072,13 +1072,15 @@ h3 {
 
 /* line 101, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
 .header-area .main-header-area .Appointment .book_btn a {
-  background: #e6b800;
-  font-family: "Teko", sans-serif;
-  padding: 12px 46px;
+  background: #e6b80000;
   font-size: 16px;
-  font-weight: 600;
-  border: 1px solid transparent;
-  color: #fff;
+  text-transform: capitalize;
+  font-family: "paytone one";
+  letter-spacing: 1px;
+  padding: 12px 46px;
+  font-weight: 400;
+  border: 1px solid #e6b800;
+  color: #ffffff;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
@@ -1094,7 +1096,7 @@ h3 {
 
 /* line 114, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
 .header-area .main-header-area .Appointment .book_btn a:hover {
-  background: #e6b800;
+  background: #e6b80062;
 }
 
 /* line 121, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
@@ -1127,13 +1129,14 @@ h3 {
 /* line 138, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a {
   color: #fff;
-  font-size: 18px;
+  font-size: 20px;
   text-transform: capitalize;
-  font-weight: 600;
+  font-weight: 500;
   display: inline-block;
   padding: 0px 10px 0px 10px;
-  font-family: "Teko", sans-serif;
+  font-family: "paytone one", sans-serif;
   position: relative;
+  letter-spacing: 1px;
   text-transform: uppercase;
 }
 
@@ -1853,16 +1856,11 @@ h3 {
 
 
 
-
-
-
-
-
 .about-text-area .section_title h3{
   color: #000000!important;
   text-transform: uppercase;
   font-weight: 900;
-  padding: 90px  0 40px 0;
+  padding: 80px  0 40px 0;
   font-size: 40px!important;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -1876,6 +1874,32 @@ h3 {
   margin-top: 20px;
   margin-bottom: 20px;
   color: #000000;
+}
+
+
+
+/* line 79, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
+.about-text-area .socail_links ul li {
+  display: inline-block;
+  margin-top: 60px;
+}
+
+/* line 82, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
+.about-text-area .socail_links ul li a {
+  color: #e6b800;
+  margin: 12px;
+  font-size: 18px;
+  border: 0.4px solid #e6b800;
+  border-radius: 15%;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* line 86, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
+.about-text-area .socail_links ul li a:hover,  .about-text-area .socail_links ul li a:hover i{
+  background-color: #e6b800;
+  color: #ffffff;
 }
 
 
@@ -2124,6 +2148,75 @@ h3 {
   width: 100%;
 }
 
+
+
+
+
+/* NEW GALLERY AREA START */
+
+
+/* line 6, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_team.scss */
+.new_gallery_area {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 767px) {
+  /* line 6, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_team.scss */
+  .new_gallery_area {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 6, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_team.scss */
+  .new_gallery_area {
+    padding-top: 100px;
+    padding-bottom: 70px;
+  }
+}
+
+.new_gallery_area .container {
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+}
+
+.new_gallery_area .section_title h3{
+  color: #000000!important;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.new_gallery_area .new_images{
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.new_gallery_area .gallery_picture {
+  width: 100%;
+  padding: 30px;
+}
+
+
+/* line 26, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_team.scss */
+.new_gallery_area .gallery_picture img {
+  width: 100%;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+/* NEW GALLERY AREA FINISH */
+
+
+
+
+
 /* line 1, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_gallery.scss */
 .gallery_area {
   overflow: hidden;
@@ -2132,8 +2225,9 @@ h3 {
 /* line 3, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_gallery.scss */
 .gallery_area .single_gallery {
   position: relative;
-  height: 480px;
-  float: left;
+  height: 220px;
+  width: 15px;
+  margin: 50px;
   overflow: hidden;
 }
 
@@ -2222,7 +2316,6 @@ h3 {
 /* line 62, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_gallery.scss */
 .gallery_area .single_gallery img {
   width: 100%;
-  height: 100%;
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -2233,46 +2326,41 @@ h3 {
   transition: 0.3s;
 }
 
-/* line 68, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_gallery.scss */
+
 .gallery_area .single_gallery.small_img {
-  width: 30%;
+  width: 25%;
 }
 
 @media (max-width: 767px) {
-  /* line 68, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_gallery.scss */
   .gallery_area .single_gallery.small_img {
     width: 100%;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 68, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_gallery.scss */
   .gallery_area .single_gallery.small_img {
     width: 50%;
   }
 }
 
-/* line 77, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_gallery.scss */
+
 .gallery_area .single_gallery.big_img {
-  width: 35%;
+  width: 25%;
 }
 
 @media (max-width: 767px) {
-  /* line 77, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_gallery.scss */
   .gallery_area .single_gallery.big_img {
     width: 100%;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 77, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_gallery.scss */
   .gallery_area .single_gallery.big_img {
     width: 50%;
   }
 }
 
 @media (max-width: 767px) {
-  /* line 77, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_gallery.scss */
   .gallery_area .single_gallery.big_img {
     width: 100%;
   }
