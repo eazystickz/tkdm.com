@@ -459,7 +459,7 @@ h3 {
   color: #fff;
   display: inline-block;
   padding: 12px 53px;
-  font-family: "Teko", sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 16px;
   font-weight: 500;
   border: 0;
@@ -1131,10 +1131,10 @@ h3 {
   color: #fff;
   font-size: 20px;
   text-transform: capitalize;
-  font-weight: 500;
+  font-weight: 700;
   display: inline-block;
   padding: 0px 10px 0px 10px;
-  font-family: "paytone one", sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   position: relative;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -1887,19 +1887,20 @@ h3 {
 /* line 82, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
 .about-text-area .socail_links ul li a {
   color: #e6b800;
+  background-color: #000000;
   margin: 12px;
   font-size: 18px;
   border: 0.4px solid #e6b800;
   border-radius: 15%;
   padding: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 /* line 86, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
 .about-text-area .socail_links ul li a:hover,  .about-text-area .socail_links ul li a:hover i{
   background-color: #e6b800;
-  color: #ffffff;
+  color: #000000;
 }
 
 
@@ -2483,15 +2484,15 @@ h3 {
 /* line 1, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_values.scss */
 .values_area {
   background: #000000;
-  padding-bottom: 140px;
-  padding-top: 100px;
+  padding-bottom: 80px;
+  padding-top: 80px;
 }
 
 .values_area .section_title h3{
   color: #ffffff!important;
   text-transform: uppercase;
   font-weight: 900;
-  padding: 0px  0 90px 0;
+  padding: 0px  0 30px 0;
   font-size: 40px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -2533,11 +2534,12 @@ h3 {
 
 /* line 18, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_values.scss */
 .values_area .single_value h4 {
-  font-size: 22px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 700;
   color: #fff;
-  text-transform: capitalize;
+  text-transform: uppercase;
   margin-top: 35px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 @media (max-width: 767px) {
@@ -2684,14 +2686,17 @@ h3 {
  .promise_area .single_promise {
   background: #ffffff;
   padding: 40px 0;
-  border: 1px solid transparent;
+  border: 3px solid #e6b800;
   border-radius: 25px;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
   margin-bottom: 30px;
+}
 
+.promise_area .single_promise:hover {
+  border: 3px solid #e6b800;
 }
 
 
@@ -2736,9 +2741,11 @@ h3 {
 .single_promise .promise_header h3{
   position: relative;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: #e6b800;
+  color: #000000;
   font-weight: 600;
-  font-size: 25px;
+  text-transform: uppercase;
+  font-size: 20px;
+  word-spacing: 5px;
 }
 
 @media (max-width: 767px) {
@@ -2772,9 +2779,7 @@ h3 {
 }
 
 /* line 57, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_pricings.scss */
-.promise_area .single_promise:hover {
-  border: 2px solid #e6b800;
-}
+
 
 
 
@@ -3438,12 +3443,16 @@ h3 {
 
 /* line 27, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget .footer_title {
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 600;
   color: #e6b800;
-  text-transform: capitalize;
+  text-transform: uppercase;
   margin-bottom: 45px;
-  font-family: "Paytone One", sans-serif;;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+/*   letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 20px; */
 }
 
 @media (max-width: 767px) {
@@ -3722,8 +3731,12 @@ h3 {
 /*=================== contact form start ====================*/
 /* line 45, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_contact.scss */
 .contact-title {
-  font-size: 27px;
-  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  text-transform: uppercase;
   margin-bottom: 20px;
 }
 
