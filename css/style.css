@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,700|Paytone+One");
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,700|Paytone+One");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,700,800,900");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,700,800,900");
 /* @import url("https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,700|Paytone+One|Teko:300,400,500,600,700&display=swap");
  *//* line 1, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_extend.scss */
 .flex-center-start {
@@ -803,6 +803,7 @@ h3 {
     right: 0px;
     width: 100%;
     z-index: 9;
+    margin-top: 10px;
   }
 }
 
@@ -1009,17 +1010,20 @@ h3 {
   }
 }
 
+
+
+
 @media (max-width: 767px) {
   /* line 47, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
-  .header-area .main-header-area .logo-img img {
-    width: 50px;
+  .header-area .main-header-area .logo img {
+    width: 80px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 47, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
-  .header-area .main-header-area .logo-img img {
-    width: 60px;
+  .header-area .main-header-area .logo img {
+    width: 80px;
   }
 }
 
@@ -1484,7 +1488,7 @@ h3 {
 /* line 1, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_slider.scss */
 
 .slider_bg_1 {
-  background-image: url(../img/banner/banner.png);
+  background-image: url(../img/banner/slim.jpg);
 }
 
 /* line 4, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_slider.scss */
@@ -1621,7 +1625,14 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 65px;
+  margin: 65px 0 0 0;
+}
+
+
+@media (max-width: 767px) {
+  .slider_area .single_slider .call_to_action {
+  margin: 65px 15px 0 15px;
+}
 }
 
 .slider_area .single_slider .call_to_action .niche-btn {
@@ -1646,6 +1657,7 @@ h3 {
     display: inline-block;
   }
 }
+
 
 
 
@@ -1968,6 +1980,15 @@ h3 {
   padding: 10px;
   padding-right: 15px;
   padding-left: 15px;
+}
+
+@media (max-width: 767px) {
+  .about-text-area .socail_links ul li a {
+    color: #e6b800;
+    background-color: #000000;
+    margin: 12px 6px 12px 6px;
+    font-size: 16px;
+  }
 }
 
 /* line 86, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
