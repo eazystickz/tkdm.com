@@ -1535,12 +1535,13 @@ h3 {
 
 /* line 25, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text span {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 600;
   color: #FFFFFF;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
   word-spacing: 10px;
+  margin-top: 100px;
 }
 
 @media (max-width: 767px) {
@@ -3555,17 +3556,21 @@ h3 {
 
 /* line 38, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget .footer_logo {
-  font-size: 22px;
+  /* font-size: 22px;
   font-weight: 400;
   color: #fff;
-  text-transform: capitalize;
+  text-transform: capitalize; */
   margin-bottom: 40px;
+
 }
 
 @media (max-width: 767px) {
   /* line 38, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_footer.scss */
   .footer .footer_top .footer_widget .footer_logo {
     margin-bottom: 20px;
+  }
+  .footer .footer_top .footer_widget .footer_logo img {
+    width: 80px;
   }
 }
 
