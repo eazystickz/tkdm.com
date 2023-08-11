@@ -693,6 +693,15 @@
                                     onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'"
                                     placeholder="Enter your name">
                             </div>
+
+
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                                 data-rule="minlen:4" data-msg="Kindly enter at Your name" />
+                                <div class="validation"></div>
+                              </div>
+
+
                         </div>
                         <div class="col-sm-6">
                             <div class="form-group">
@@ -713,6 +722,26 @@
                         <button type="submit" class="button button-contactForm boxed-btn">Send</button>
                     </div>
                 </form>
+
+                <form action="POST" data-netlify="true" method="post" role="form" class="contactForm">
+                    <div class="form-group">
+                      <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Kindly enter at Your name" />
+                      <div class="validation"></div>
+                    </div>
+                    <div class="form-group">
+                      <input type="number" class="form-control" name="number" id="number" placeholder="Phone Number" data-rule="minlen:10" data-msg="Kindly enter a valid Phone Number" />
+                      <div class="validation"></div>
+                    </div>
+                    <!-- <div class="form-group">
+                      <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Kindly enter at least 8 chars of subject" />
+                      <div class="validation"></div>
+                    </div> -->
+                    <div class="form-group">
+                      <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Kindly write your message to us" placeholder="Message"></textarea>
+                      <div class="validation"></div>
+                    </div>
+                    <div class="text-center"><button type="submit" onclick="setTimeout(showPopup, 3000);" >Send Message</button></div>
+                  </form>
             </div>
             <div class="col-lg-3 offset-lg-1">
                 <div class="media contact-info">
